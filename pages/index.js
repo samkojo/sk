@@ -1,5 +1,10 @@
+import Link from 'next/link'
+
 function Home(){
-    return <h1>Test New</h1>
+    return (<div><h1>Home</h1>
+    <Link href='/new'>
+        <a>New</a>
+    </Link></div>)
 }
 
 export default Home
